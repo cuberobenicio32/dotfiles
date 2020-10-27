@@ -28,7 +28,7 @@ If you don't have WSL already installed, you can follow this official Microsoft'
 * Python autocompletion with [Jedi](https://github.com/davidhalter/jedi)
 * C/C++ autocompletion with [clang](https://github.com/deoplete-plugins/deoplete-clang) 
 * Fuzzy searching with [fzf](https://github.com/junegunn/fzf)
-* My 3 favorite color themes, [dracula](https://github.com/dracula/vim), [nord][https://github.com/arcticicestudio/nord-vim] and [gruvbox] (https://github.com/sainnhe/gruvbox-material)
+* My 3 favorite color themes, [dracula](https://github.com/dracula/vim), [nord](https://github.com/arcticicestudio/nord-vim) and [gruvbox](https://github.com/sainnhe/gruvbox-material)
 * Amazing [icons](https://github.com/ryanoasis/vim-devicons)
 * Lean and mean [status bar/tabline](https://github.com/vim-airline/vim-airline)
 * CSS color [visualizer](https://github.com/chrisbra/Colorizer)
