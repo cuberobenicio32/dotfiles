@@ -45,6 +45,8 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'turbio/bracey.vim'
 Plug 'preservim/nerdcommenter'
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
+nmap <leader>pw <Plug>MarkdownPreviewToggle<CR> 
 
 " Deoplete, autocompletion engine.
 if has('nvim')
