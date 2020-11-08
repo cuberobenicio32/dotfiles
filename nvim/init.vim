@@ -34,14 +34,10 @@ Plug 'sainnhe/gruvbox-material'
 " IDE
 Plug 'easymotion/vim-easymotion'
 Plug 'scrooloose/nerdtree'
-Plug 'christoomey/vim-tmux-navigator'
 Plug 'mhinz/vim-startify'
 Plug 'liuchengxu/vim-which-key'
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
-Plug 'turbio/bracey.vim'
-Plug 'preservim/nerdcommenter'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
+
 " Deoplete, autocompletion engine.
 
 if has('nvim')
