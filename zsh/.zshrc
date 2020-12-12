@@ -8,20 +8,22 @@ export ZSH="/home/mandarinadev/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="half-life"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
 # If set to an empty array, this variable will have no effect.
 # ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
-
+ZSH_THEME="minimal"
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
 # Uncomment the following line to use hyphen-insensitive completion.
 # Case-sensitive completion must be off. _ and - will be interchangeable.
 # HYPHEN_INSENSITIVE="true"
+
+# vim keybindings
+bindkey -v
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
 # DISABLE_AUTO_UPDATE="true"
@@ -68,7 +70,7 @@ ZSH_THEME="half-life"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-syntax-highlighting zsh-completions github command-not-found vagrant sudo)
+plugins=(git zsh-syntax-highlighting zsh-completions github vagrant sudo)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -97,3 +99,17 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+
+
+## Aliases
+alias nvimrc='nvim $HOME/.config/nvim/init.vim' 
+alias zshrc='nvim $HOME/.zshrc'
+alias proyectos='cd /mnt/c/Users/Usuario/Desktop/Proyectos'
+alias benicio='cd /mnt/c/Users/Usuario/Desktop/Benicio'
+alias windows='cd /mnt/c/Users/Usuario'
+alias debian='cd $HOME'
+
