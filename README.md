@@ -1,5 +1,5 @@
 ## My Windows Subsystem for Linux 2 Workflow.
->NOTE: This is outdated. I will work on it again soon.
+>NOTE: This README is outdated. I will work on it again soon.
 
 
 ![Start page](./img/start-page.png "Startify")
