@@ -4,10 +4,10 @@ source $HOME/.config/nvim/basics.vim
 call plug#begin ('~/.config/nvim/plugged')
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes' " Vim status bar
-Plug 'yggdroot/indentline'
+Plug 'yggdroot/indentline' " More clear indent line
 Plug 'lilydjwg/colorizer' " Shows hex, rgb, and css colors
 Plug 'tpope/vim-commentary' " Utility for easy comments
-Plug 'vimwiki/vimwiki'
+Plug 'vimwiki/vimwiki' " Plugin for managing my notes and personal life
 Plug 'scrooloose/nerdtree'
 Plug 'mattn/emmet-vim' " Code snippets for web-dev
 Plug 'junegunn/goyo.vim'
