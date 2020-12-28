@@ -14,7 +14,7 @@ My configurations are not well-documented enough until now, they're also not tot
 * Modularized, with diferent source files for easy modification.
 * Good basics in basics.vim, although I think they are a little bit bloated. It's a good start if you're a vim beginner.
 * Amazing [icons](https://github.com/ryanoasis/vim-devicons)
-* Lean and mean [status bar](https:// github.com/vim-airline/vim-airline)
+* Lean and mean [status bar/tabline](https://github.com/vim-airline/vim-airline)
 * Notetaking with [vimwiki](https://github.com/vimwiki/vimwiki)
 * CSS color [visualizer](https://github.com/chrisbra/Colorizer)
 * Live server with [Bracey](https://github.com/turbio/bracey.vim)
