@@ -1,46 +1,24 @@
-## My Windows Subsystem for Linux 2 Workflow.
->NOTE: This is outdated. I will work on it again soon.
-
-
-![Start page](./img/start-page.png "Startify")
-
-<p align="center"> Startify </p>
-
-![Coding](./img/coding.png "Some code")
-
-<p align="center"> Some code </p>
-
+## My Arch dotfiles
 
 ## Introduction
 
-This is some of the tools that I use daily on my workflow with WSL (I personally use Debian). 
+This is some of the tools that I use daily on my workflow with Arch. (Currently neovim, zsh, and Zathura
 
 My configurations are not well-documented enough until now, they're also not totally finished, so this is a work-in-progress. I would also upload more things that I use on a daily basis and its config files. While you can copy my whole config files, it is not recommended though. You should have your own config file. You are encouraged to copy from this repo the part you feel useful and add it to your own nvim config. 
 
 >NOTE: I'm not an english native speaker, so it will probably be some grammar mistakes here.If you are willing to help, you will be so grateful if you can make a pull request or an issue.
 
-### WSL
-
-If you don't have WSL already installed, you can follow this official Microsoft's guide. [WSL installation guide](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
-
 ### Neovim
 
 ### Features
-* It works for all platforms
-* Asynchronous auto-completion with [deoplete](https://github.com/Shougo/deoplete.nvim)
-* Python autocompletion with [Jedi](https://github.com/davidhalter/jedi)
-* C/C++ autocompletion with [clang](https://github.com/deoplete-plugins/deoplete-clang) 
-* Fuzzy searching with [fzf](https://github.com/junegunn/fzf)
-* My 3 favorite color themes, [dracula](https://github.com/dracula/vim), [nord](https://github.com/arcticicestudio/nord-vim) and [gruvbox](https://github.com/sainnhe/gruvbox-material)
+* It werks for all platforms
 * Amazing [icons](https://github.com/ryanoasis/vim-devicons)
-* Lean and mean [status bar/tabline](https://github.com/vim-airline/vim-airline)
+* Lean and mean [status bar/tabline](https:// github.com/vim-airline/vim-airline)
+* Notetaking with [vimwiki](https://github.com/vimwiki/vimwiki)
 * CSS color [visualizer](https://github.com/chrisbra/Colorizer)
-* Auto rename tag for [HTML](https://github.com/AndrewRadev/tagalong.vim)
 * Live server with [Bracey](https://github.com/turbio/bracey.vim)
-* Search words easily with [easymotion](https://github.com/easymotion/vim-easymotion)
-* [Markdown Preview](https://github.com/iamcco/markdown-preview.nvim)
 * Easy comments with [Nerd Commenter](https://github.com/preservim/nerdcommenter)
-* Working to add more features.
+*  
 ### Installation
 First off, you have to install [neovim](https://neovim.io/).
 
