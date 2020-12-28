@@ -3,6 +3,7 @@ set number
 set showcmd
 set showmatch
 set noshowmode
+set termguicolors
 set nocompatible
 filetype plugin on 
 set relativenumber

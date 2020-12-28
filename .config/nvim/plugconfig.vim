@@ -1,3 +1,5 @@
+" My colorscheme
+colorscheme apprentice
 " Bracey configuration
 let g:bracey_browser_command="firefox"
 let g:bracey_refresh_on_save=1

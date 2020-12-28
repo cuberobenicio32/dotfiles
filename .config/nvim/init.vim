@@ -15,6 +15,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'turbio/bracey.vim' " Live server for web dev
 Plug 'romainl/Apprentice' " My colorscheme :)
 Plug 'tpope/vim-surround'
+Plug 'iamcco/markdown-preview.nvim'
 call plug#end()
 " Vim wiki path
 source $HOME/.config/nvim/vimwiki.vim " I like to keep this separate from my plugin config because it has some personal folders that I .gitignore 
