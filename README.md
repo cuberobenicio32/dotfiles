@@ -1,5 +1,4 @@
 ## My Arch dotfiles
-
 ## Introduction
 
 This is some of the tools that I use daily on my workflow with Arch. (Currently Neovim, Zsh, and Zathura)
