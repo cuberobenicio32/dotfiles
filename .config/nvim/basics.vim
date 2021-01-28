@@ -3,7 +3,6 @@ set number
 set showcmd
 set showmatch
 set noshowmode
-set termguicolors
 set nocompatible
 filetype plugin on 
 set relativenumber
@@ -14,9 +13,9 @@ set smartindent
 set autoindent
 set nobackup
 set nowritebackup
-set background=dark 
 set sw=2
 set encoding=utf-8
+set background=light
 set clipboard=unnamed
 set numberwidth=1
 set mouse=a
