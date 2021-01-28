@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH="/home/benicio/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME=""
 # Enable colors and change prompt:
@@ -7,7 +7,7 @@ autoload -U colors && colors	# Load colors
 PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
 # PS1="%B%{$fg[blue]%}[%{$fg[white]%}%n%{$fg[red]%}@%{$fg[white]%}%M %{$fg[red]%}%~%{$fg[blue]%}]%{$reset_color%}$%b "
 
-# This makes check status on large git repositories a looot faster
+# This makes check status on large git repositories a lot faster
 DISABLE_UNTRACKED_FILES_DIRTY="true"
 
 # Plugins
@@ -33,7 +33,7 @@ bindkey -v
 # Change cursor shape for different vi modes.
 function zle-keymap-select () {
     case $KEYMAP in
-        vicmd) echo -ne '\e[1 q';;      # block
+	  vicmd) echo -ne '\e[1 q';;      # block
         viins|main) echo -ne '\e[5 q';; # beam
     esac
 }
@@ -46,3 +46,8 @@ zle -N zle-line-init
 echo -ne '\e[5 q' # Use beam shape cursor on startup.
 preexec() { echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.
 
+# Import colorscheme from 'wal' asynchronously
+# &   # Run the process in the background.
+# ( ) # Hide shell job control messages.
+# Not supported in the "fish" shell.
+(cat ~/.cache/wal/sequences &)
