@@ -2,7 +2,6 @@ set statusbar-h-padding 0
 set statusbar-v-padding 0
 
 set selection-clipboard clipboard
-set recolor "true"
 
 set recolor-darkcolor "#F9F9F9"
 set recolor-lightcolor "#0A171F"
