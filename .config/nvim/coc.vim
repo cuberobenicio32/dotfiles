@@ -1,5 +1,5 @@
 " CoC  
-let g:coc_global_extensions = ['coc-html', 'coc-css', 'coc-prettier', 'coc-json', 'coc-git', 'coc-jedi']
+let g:coc_global_extensions = ['coc-html', 'coc-css', 'coc-prettier', 'coc-json', 'coc-git']
 
 " Reduced updatetime
 set updatetime=300

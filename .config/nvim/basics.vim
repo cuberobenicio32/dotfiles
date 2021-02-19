@@ -1,9 +1,10 @@
 syntax enable
+set termguicolors
 set number
 set showcmd
 set showmatch
 set noshowmode
-set background=light
+set background=dark
 set nocompatible
 filetype plugin on 
 set relativenumber
