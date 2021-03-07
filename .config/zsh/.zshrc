@@ -30,6 +30,10 @@ source $HOME/.config/zsh/.aliases
 # Vi bindings
 bindkey -v
 
+# fzf bindings
+source /usr/share/fzf/key-bindings.zsh
+source /usr/share/fzf/completion.zsh
+
 # Change cursor shape for different vi modes.
 function zle-keymap-select () {
     case $KEYMAP in
