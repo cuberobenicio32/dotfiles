@@ -22,7 +22,7 @@ source $ZSH/oh-my-zsh.sh
  fi
 
 # Compilation flags
- export ARCHFLAGS="-arch x86_64"
+export ARCHFLAGS="-arch x86_64"
 
 # Personal aliases
 source $HOME/.config/zsh/.aliases
@@ -49,4 +49,3 @@ zle-line-init() {
 zle -N zle-line-init
 echo -ne '\e[5 q' # Use beam shape cursor on startup.
 preexec() { echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.
-
