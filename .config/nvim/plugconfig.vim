@@ -1,4 +1,2 @@
-" Prettier 
-command! -nargs=0 Prettier :CocCommand prettier.formatFile
-
-
+" vim-instant-markdown
+let g:instant_markdown_autostart = 0

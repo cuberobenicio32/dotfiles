@@ -5,8 +5,8 @@ let mapleader=' '
 let maplocalleader = ','
 
 " Basic vim shortcuts
-map <F2> :bn<CR> " Next buffer
-nmap <F3> :bp<CR> " Previous buffer
+map <F3> :bn<CR> " Next buffer
+nmap <F2> :bp<CR> " Previous buffer
 nmap <leader>db :bd<CR> " Delete buffer
 
 " Plugin shortcuts

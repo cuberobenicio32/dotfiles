@@ -12,6 +12,7 @@ Plug 'bling/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-commentary'
 Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown'}
+Plug 'morhetz/gruvbox'
 Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-surround'
 call plug#end()
@@ -23,6 +24,4 @@ source $HOME/.config/nvim/shortcuts.vim
 source $HOME/.config/nvim/coc.vim
 source $HOME/.config/nvim/vimwiki.vim
 source $HOME/.config/nvim/airline.vim
-" Colorscheme
-colorscheme gruvbox
-let g:gruvbox_constrast_dark = 'medium'
+source $HOME/.config/nvim/plugconfig.vim
