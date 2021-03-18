@@ -22,6 +22,5 @@ source $HOME/.config/nvim/vimwiki.vim " I like to keep this separate from my plu
 source $HOME/.config/nvim/shortcuts.vim
 " Plugin config
 source $HOME/.config/nvim/coc.vim
-source $HOME/.config/nvim/vimwiki.vim
 source $HOME/.config/nvim/airline.vim
 source $HOME/.config/nvim/plugconfig.vim
