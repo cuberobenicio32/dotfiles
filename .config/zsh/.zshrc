@@ -1,7 +1,5 @@
-# Path to your oh-my-zsh installation.
-export ZSH="$HOME/.oh-my-zsh"
+# zsh config.
 
-ZSH_THEME=""
 # Enable colors and change prompt:
 autoload -U colors && colors	# Load colors
 PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
@@ -9,10 +7,6 @@ PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magent
 
 # This makes check status on large git repositories a lot faster
 DISABLE_UNTRACKED_FILES_DIRTY="true"
-
-# Plugins
-plugins=(git zsh-syntax-highlighting zsh-autosuggestions github vagrant)
-source $ZSH/oh-my-zsh.sh
 
 # Preferred editor for local and remote sessions
  if [[ -n $SSH_CONNECTION ]]; then
@@ -27,12 +21,15 @@ export ARCHFLAGS="-arch x86_64"
 # Personal aliases
 source $HOME/.config/zsh/.aliases
 
-# Vi bindings
-bindkey -v
-
 # fzf bindings
 source /usr/share/fzf/key-bindings.zsh
 source /usr/share/fzf/completion.zsh
+
+# Loading plugins
+source /usr/share/zsh/plugins/fast-syntax-highlighting
+
+# Vi bindings
+bindkey -v
 
 # Change cursor shape for different vi modes.
 function zle-keymap-select () {
