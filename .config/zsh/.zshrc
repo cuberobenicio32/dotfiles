@@ -25,11 +25,9 @@ source $HOME/.config/zsh/.aliases
 source /usr/share/fzf/key-bindings.zsh
 source /usr/share/fzf/completion.zsh
 
-# Loading plugins
-source /usr/share/zsh/plugins/fast-syntax-highlighting
-
 # Vi bindings
 bindkey -v
+export KEYTIMEOUT=1
 
 # Change cursor shape for different vi modes.
 function zle-keymap-select () {
@@ -46,3 +44,6 @@ zle-line-init() {
 zle -N zle-line-init
 echo -ne '\e[5 q' # Use beam shape cursor on startup.
 preexec() { echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.
+
+# Loading syntax highlighting
+source /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
