@@ -12,7 +12,6 @@ Plug 'bling/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-commentary'
 Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown'}
-Plug 'morhetz/gruvbox'
 Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-surround'
 call plug#end()
