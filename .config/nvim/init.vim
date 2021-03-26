@@ -15,8 +15,6 @@ Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown'}
 Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-surround'
 call plug#end()
-" Vim wiki path
-source $HOME/.config/nvim/vimwiki.vim " I like to keep this separate from my plugin config because it has some personal folders that I .gitignore 
 " Shortcuts
 source $HOME/.config/nvim/shortcuts.vim
 " Plugin config
