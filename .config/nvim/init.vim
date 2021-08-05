@@ -5,8 +5,6 @@ call plug#begin ('~/.config/nvim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'lilydjwg/colorizer'
 Plug 'mattn/emmet-vim'
-Plug 'junegunn/fzf', { 'do' : { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'bling/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -19,5 +17,4 @@ call plug#end()
 source $HOME/.config/nvim/shortcuts.vim
 " Plugin config
 source $HOME/.config/nvim/coc.vim
-source $HOME/.config/nvim/airline.vim
 source $HOME/.config/nvim/plugconfig.vim

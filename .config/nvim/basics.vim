@@ -3,7 +3,7 @@ set number
 set showcmd
 set showmatch
 set noshowmode
-set background=light
+set background=dark
 set nocompatible
 filetype plugin on 
 set relativenumber
@@ -21,5 +21,5 @@ set numberwidth=1
 set mouse=a
 " Disables autocommenting on new line
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
-" Gui settings
-set guifont=Iosevka\ Term:h12
+" Colorscheme
+colorscheme peachpuff
